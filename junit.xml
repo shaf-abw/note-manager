@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="1.458">
+  <testsuite name="Initial UI" errors="0" failures="0" skipped="0" timestamp="2024-10-18T17:02:22" time="0.993" tests="11">
+    <testcase classname="Initial UI note input box should be of type text" name="Initial UI note input box should be of type text" time="0.036">
+    </testcase>
+    <testcase classname="Initial UI initially the notes list should be empty" name="Initial UI initially the notes list should be empty" time="0.022">
+    </testcase>
+    <testcase classname="Add Note add note button should add a note" name="Add Note add note button should add a note" time="0.034">
+    </testcase>
+    <testcase classname="Add Note should empty the input boxes on adding a valid note" name="Add Note should empty the input boxes on adding a valid note" time="0.019">
+    </testcase>
+    <testcase classname="Add Note should not submit the form when either title or content is empty" name="Add Note should not submit the form when either title or content is empty" time="0.012">
+    </testcase>
+    <testcase classname="Add Note should keep the add note button disabled when title is empty" name="Add Note should keep the add note button disabled when title is empty" time="0.013">
+    </testcase>
+    <testcase classname="Add Note should keep the add note button disabled when content is empty" name="Add Note should keep the add note button disabled when content is empty" time="0.012">
+    </testcase>
+    <testcase classname="Delete Note delete button should delete the corresponding note" name="Delete Note delete button should delete the corresponding note" time="0.029">
+    </testcase>
+    <testcase classname="Edit Note edit button should show the corresponding note in the input fields" name="Edit Note edit button should show the corresponding note in the input fields" time="0.017">
+    </testcase>
+    <testcase classname="Edit Note should update the note with new values after editing" name="Edit Note should update the note with new values after editing" time="0.02">
+    </testcase>
+    <testcase classname="Edit Note should maintain the order of notes and update the note with new values after editing" name="Edit Note should maintain the order of notes and update the note with new values after editing" time="0.023">
+    </testcase>
+  </testsuite>
+</testsuites>
